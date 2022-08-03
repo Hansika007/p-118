@@ -1,0 +1,64 @@
+body
+{ 
+    background-color:aquamarine;
+} 
+
+h1 
+{
+    color:rgb(38, 0, 255); 
+    background-color: cornsilk; 
+    font-family:fantasy; 
+    text-align: center; 
+    padding-left: 150px;
+} 
+
+#show_sketch 
+{ 
+    float:right; 
+    margin-right: 10px; 
+    margin-top: 3px; 
+    font-family:Arial;
+}
+
+#sketch
+{
+    color: crimson;
+}
+
+#timer
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    margin-right: 20px;
+}
+
+#score
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    margin-left: 10px;
+}
+
+p
+{
+    padding-top:10px;
+    font-size:25px;
+}
+     
+canvas 
+{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 200px; 
+    animation-iteration-count: 500;
+}
+
+@keyframes Example
+{
+    0%{box-shadow:5px 5px 38px rgb(133, 255, 235);}
+    20%{box-shadow:5px 5px 38px rgb(255, 60, 0);}
+    50%{box-shadow:5px 5px 38px rgb(219, 255, 58);}
+    100%{box-shadow:5px 5px 38px rgb(0, 255, 179);}
+}
